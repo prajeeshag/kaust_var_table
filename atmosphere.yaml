@@ -1,0 +1,27 @@
+dimensions:
+  - lat
+  - lon
+  - XTIME
+
+coordinates:
+  lon:
+    units: degrees_east
+    axis: X
+  lat:
+    units: degrees_north
+    axis: Y
+  XTIME:
+    units: <time> since <yyyy-mm-dd> <HH:MM:SS>
+    axis: T
+
+variables:
+  U10:
+    standard_name: u_wind_at_10_meter
+    units: m/s
+    long_name: U-wind at 10 meter
+    type: real
+  V10:
+    standard_name: v_wind_at_10_meter
+    units: m/s
+    long_name: V-wind at 10 meter
+    type: real

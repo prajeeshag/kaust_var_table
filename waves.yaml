@@ -1,0 +1,32 @@
+dimensions:
+  - latitude
+  - longitude
+  - time
+
+coordinates:
+  logitude:
+    units: degrees_east
+    axis: X
+  latitude:
+    units: degrees_north
+    axis: Y
+  time:
+    units: <time> since <yyyy-mm-dd> <HH:MM:SS>
+    axis: T
+
+variables:
+  hs:
+    standard_name: sea_surface_wave_significant_height
+    units: m
+    long_name: Sea Surface Wave Significant Height
+    type: real
+  dir:
+    standard_name: sea_surface_wave_from_direction
+    units: degree
+    long_name: wave mean direction
+    type: real
+  t02:
+    standard_name: sea_surface_wind_wave_mean_period_from_variance_spectral_density_second_frequency_moment
+    units: s
+    long_name: mean period T02
+    type: real

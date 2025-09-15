@@ -1,0 +1,51 @@
+dimensions:
+  - latitude
+  - longitude
+  - time
+  - depth
+
+coordinates:
+  logitude:
+    units: degrees_east
+    axis: X
+  latitude:
+    units: degrees_north
+    axis: Y
+  depth:
+    units: m
+    axis: Z
+  time:
+    units: <time> since <yyyy-mm-dd> <HH:MM:SS>
+    axis: T
+
+variables:
+  thetao:
+    standard_name: sea_water_potential_temperature
+    units: degC
+    long_name: Sea Water Potential Temperature
+    type: real
+  vo:
+    standard_name: sea_water_y_velocity
+    units: m s-1
+    long_name: Sea Water Y Velocity
+    type: real
+  uo:
+    standard_name: sea_water_x_velocity
+    units: m s-1
+    long_name: Sea Water X Velocity
+    type: real
+  so:
+    standard_name: sea_water_salinity
+    units: "0.001"
+    long_name: Sea Water Salinity
+    type: real
+  wo:
+    standard_name: upward_sea_water_velocity
+    units: m s-1
+    long_name: Sea Water Vertical Velocity
+    type: real
+  zos:
+    standard_name: sea_surface_height_above_geoid
+    units: m
+    long_name: Sea Surface Height Above Geoid
+    type: real
