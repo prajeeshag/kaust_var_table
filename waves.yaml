@@ -5,12 +5,18 @@ dimensions:
 
 coordinates:
   logitude:
+    standard_name: longitude
+    long_name: Longitude
     units: degrees_east
     axis: X
   latitude:
+    standard_name: latitude
+    long_name: Latitude
     units: degrees_north
     axis: Y
   time:
+    standard_name: time
+    long_name: Time
     units: <time> since <yyyy-mm-dd> <HH:MM:SS>
     axis: T
 
@@ -19,14 +25,17 @@ variables:
     standard_name: sea_surface_wave_significant_height
     units: m
     long_name: Sea Surface Wave Significant Height
-    type: real
+    _FillValue: <value>
+    missing_value: <value>
   dir:
     standard_name: sea_surface_wave_from_direction
     units: degree
     long_name: wave mean direction
-    type: real
+    _FillValue: <value>
+    missing_value: <value>
   t02:
     standard_name: sea_surface_wind_wave_mean_period_from_variance_spectral_density_second_frequency_moment
     units: s
     long_name: mean period T02
-    type: real
+    _FillValue: <value>
+    missing_value: <value>

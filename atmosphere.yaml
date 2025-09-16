@@ -17,11 +17,9 @@ coordinates:
 variables:
   U10:
     standard_name: u_wind_at_10_meter
-    units: m/s
+    units: m s-1
     long_name: U-wind at 10 meter
-    type: real
   V10:
     standard_name: v_wind_at_10_meter
-    units: m/s
+    units: m s-1
     long_name: V-wind at 10 meter
-    type: real

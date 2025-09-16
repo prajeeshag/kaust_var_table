@@ -6,46 +6,60 @@ dimensions:
 
 coordinates:
   logitude:
+    standard_name: longitude
+    long_name: Longiitude
     units: degrees_east
     axis: X
   latitude:
+    standard_name: latitude
+    long_name: Latitude
     units: degrees_north
     axis: Y
   depth:
+    standard_name: depth
+    long_name: Depth
     units: m
     axis: Z
   time:
+    standard_name: time
+    long_name: Time
     units: <time> since <yyyy-mm-dd> <HH:MM:SS>
     axis: T
 
 variables:
   thetao:
     standard_name: sea_water_potential_temperature
-    units: degC
     long_name: Sea Water Potential Temperature
-    type: real
+    units: degC
+    _FillValue: <value>
+    missing_value: <value>
   vo:
     standard_name: sea_water_y_velocity
-    units: m s-1
     long_name: Sea Water Y Velocity
-    type: real
+    units: m s-1
+    _FillValue: <value>
+    missing_value: <value>
   uo:
     standard_name: sea_water_x_velocity
-    units: m s-1
     long_name: Sea Water X Velocity
-    type: real
+    units: m s-1
+    _FillValue: <value>
+    missing_value: <value>
   so:
     standard_name: sea_water_salinity
-    units: "0.001"
     long_name: Sea Water Salinity
-    type: real
+    units: "0.001"
+    _FillValue: <value>
+    missing_value: <value>
   wo:
     standard_name: upward_sea_water_velocity
-    units: m s-1
     long_name: Sea Water Vertical Velocity
-    type: real
+    units: m s-1
+    _FillValue: <value>
+    missing_value: <value>
   zos:
     standard_name: sea_surface_height_above_geoid
-    units: m
     long_name: Sea Surface Height Above Geoid
-    type: real
+    units: m
+    _FillValue: <value>
+    missing_value: <value>
